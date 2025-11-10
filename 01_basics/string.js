@@ -39,3 +39,4 @@ let newString = Name.substring(0,5)
 console.log(newString);
 console.log("Hello")
 
+cosole.log("hello")
