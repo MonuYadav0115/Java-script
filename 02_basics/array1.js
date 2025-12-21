@@ -45,15 +45,55 @@
 // ******************* Array in second time practics *************************************
 
 
-const array = [ 2,3,4,5]
+// const array = [ 2,3,4,5]
 
-const myarray = ["Monu","tom","Monutom","TomMonu"]
+// const myarray = ["Monu","tom","Monutom","TomMonu"]
 
-const myarray2 = new Array(90,80,70,60)
+// const myarray2 = new Array(90,80,70,60)
 
 
 
-console.log(array[3])
-console.log(myarray[2])
-console.log(myarray2[2])
+// console.log(array[3])
+// console.log(myarray[2])
+// console.log(myarray2[2])
 
+// myarray2.push(50,30)
+// myarray2.pop()          // means last digit removed 
+// array.push(6)
+// console.log(myarray2)
+// console.log(array)
+
+
+// const array1 = [1,2,3,4,5,6,7,8]
+// array1.unshift(9)
+// array1.shift()
+// console.log(array1.includes(8)) 
+// console.log(array1)
+
+// index 
+
+// let array2 =[1,2,3,4,5,6,8,9]
+// console.log(array2.indexOf(3))
+
+
+// join metheod
+
+// const array3 = [1,2,3,4]
+// const newarray = array3.join()
+
+// console.log(array3)
+// console.log(newarray)
+
+
+// slice and splice method  interview question asked this topic 
+
+// let myarray5 = [1,2,3,4,5,6,7]
+// let myn5 = myarray5.slice(2,4)
+
+// console.log(myarray5)
+// console.log(myn5)
+
+// let myarray1 = [0,1,2,3,4,5,6]
+// let myn1 = myarray1.splice(2,4)
+// console.log(myarray1)
+// console.log(myn1)
