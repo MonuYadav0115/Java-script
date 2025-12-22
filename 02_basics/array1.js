@@ -6,28 +6,29 @@
 
 // const myarray2 = new Array(1,2,3,4,5)
 
-// // console.log(myarray)
-// // console.log(myHero[1])
+// console.log(myarray)
+// console.log(myHero[1])
 
 // // array method 
 
-// // myarray.push(6)
-// // myarray.push(7)
-// // myarray.pop()            // its removed in last value 
-// // myarray.unshift(9)      // its add first position in array 
-// // myarray.shift()
+// myarray.push(6)
+// myarray.push(7)
+// myarray.pop()            // its removed in last value 
+// myarray.unshift(9)      // its add first position in array 
+// myarray.shift()      // its remove unshift value from first 
+// console.log(myarray)
 
 
 
-// // console.log(myarray.includes(9))
-// // console.log(myarray.indexOf(3))
+// console.log(myarray.includes(9))    // false
+// console.log(myarray.indexOf(3))      // 3
 
 
-// // const newarray = myarray.join()
+// const newarray = myarray.join()
 
-// // console.log(myarray)
-// // console.log(newarray)
-// // console.log(typeof newarray)
+// console.log(myarray)       // [ 0, 1, 2, 3, 4, 5 ]
+// console.log(newarray)      // 0,1,2,3,4,5
+// console.log(typeof newarray)  // string
 
 
 // console.log("A", myarray)
@@ -97,3 +98,24 @@
 // let myn1 = myarray1.splice(2,4)
 // console.log(myarray1)
 // console.log(myn1)
+
+
+
+// slice  and splice 
+
+// let a = [1,2,3,4,5]
+// let b = a.slice(1,3)
+// console.log("A",a,"B",b)
+
+
+// splice 
+
+// let a = [1,2,3,4,5,6]
+// let b = a.splice(2,2)
+// console.log("A",a,"B",b)
+
+// 🧠 Easy Memory Trick
+
+// slice = copy
+
+// splice = change
