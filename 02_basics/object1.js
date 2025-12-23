@@ -10,21 +10,24 @@
 //     age: 22,
 //     place: "Uttar Pradesh",
 //     email: "monuy7883@gmail.com",
-//     Logedin:false,
+//     LogedIn:false,
 // }
 // console.log(Jsuser.email)
-// console.log(Jsuser.age)
+// console.log(Jsuser.age) 
 
 
 
-// 2 type 
+// // 2 type 
+
 // let Jsuser = {
 //     "name": "Monu Yadav",
 //     "age": 22,
 //     "places": "Tandava",
-//     "Logedin":true
+//     "LogedIn":true
 // }
 // console.log(Jsuser["name"])
+
+
 
 // 3 how to change name and email in object 
 
@@ -34,12 +37,12 @@
 //     places:"jaunpur",
 //     email:"monuy7883@gmail.com"
 // }
-// Jsuser.email = "tom@gmail.com"
+// Jsuser.email = "tom@gmail.com"  // update email id 
 // console.log(Jsuser)
 
 // Object.freeze(Jsuser)
 
-// Jsuser.email = "zentrox@gmail.com"
+// Jsuser.email = "zentrox@gmail.com"  // try to update but not becoused first freeze jsuser
 // console.log(Jsuser)
 
 
@@ -47,21 +50,21 @@
 // 4 new method 
 
 
-const Jsuser = {
-    name:"monu",
-    age:22,
-    place:"varansi",
-    email:"monu@gmail.com"
+// const Jsuser = {
+//     name:"monu",
+//     age:22,
+//     place:"varansi",
+//     email:"monu@gmail.com"
+// }
 
-}
+// Jsuser.greeting = function(){
+//     console.log("Hello js user")
+// } 
+// console.log(Jsuser.greeting())
 
-Jsuser.greeting = function(){
-    console.log("Hello js user")
-} 
-console.log(Jsuser.greeting())
 
-Jsuser.greeting2 = function(){
-    console.log(`Hello js user ${this.name}`)
-}
-console.log(Jsuser.greeting2())
+// Jsuser.greeting2 = function(){
+//     console.log(`Hello js user ${this.name}`)
+// }
+// console.log(Jsuser.greeting2())
 
