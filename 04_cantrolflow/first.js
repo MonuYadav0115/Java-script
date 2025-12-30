@@ -86,13 +86,25 @@
 
 // 7 && and operatore -- any one condition false code will be not exicuted from under scope 
  
-const indian = true 
-const soauthindian = true 
-const northindian = true 
-const pakistani = false 
+// const indian = true 
+// const soauthindian = true 
+// const northindian = true 
+// const pakistani = false 
 
-if (indian && soauthindian && northindian && pakistani) {
-    console.log("Yes You are indian citigen")
-} else {
-    console.log("Not allowed ")
+// if (indian && soauthindian && northindian && pakistani) {
+//     console.log("Yes You are indian citigen")
+// } else {
+//     console.log("Not allowed ")
+// }
+
+
+
+// 8  || --- or condition any one true so code exicuted 
+
+const LoggedInGoogle = "google@gmail.com"
+const LoggedInEmail = "zentrox0115@gmail.com"
+
+if (LoggedInGoogle || LoggedInEmail){
+    console.log("User LoggedIn")
+
 }
