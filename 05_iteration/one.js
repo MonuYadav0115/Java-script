@@ -45,7 +45,7 @@ for(index = 0; index <= myarray.length; index++){
 // }
 
 
-// continue ---->
+// continue  method ---->
 
 for(let index = 1; index <= 20; index ++){
     if(index === 5){
