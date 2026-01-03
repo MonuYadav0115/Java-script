@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Three  </title>
+</head>
+<body style="background-color: black; color: white;">
+    <!-- <h1> Hello Dom</h1> -->
+
+    <ul class="language">
+        <li>Java script</li>
+    </ul>
+    
+</body>
+
+<script>
+    function addlanguage(langname){
+        const li = document.createElement("li")
+        li.innerHTML = langname 
+        document.querySelector(".language").appendChild(li)
+    }
+    addlanguage("Python")
+    addlanguage("Rust")
+
+//otimal method 
+
+    function addotilanguage(langname){
+        const li = document.createElement("li")
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector(".language").appendChild(li)
+    }
+    addotilanguage("java")
+
+    // Editing 
+
+    const secondlang = document.querySelector("li:nth-child(2)")
+    // secondlang.innerHTML = "Django"
+
+    //optimal ---> way 
+
+    const newli = document.createElement("li")
+    newli.textContent = "Mogo"
+    secondlang.replaceWith(newli)
+
+    // editing first value js 
+    const firstlang = document.querySelector("li:first-child")
+    firstlang.outerHTML = "<li>Type script</li>"
+
+
+    // removed 
+
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
+
+</script>
+</html>
