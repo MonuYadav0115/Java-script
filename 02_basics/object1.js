@@ -3,17 +3,7 @@
 
 //Singleton  -----> object.create
 
-// object literals 
-
-// const Jsuser = {
-//     name: "monu",
-//     age: 22,
-//     place: "Uttar Pradesh",
-//     email: "monuy7883@gmail.com",
-//     LogedIn:false,
-// }
-// console.log(Jsuser.email)
-// console.log(Jsuser.age) 
+// object literals  
 
 
 
@@ -26,6 +16,7 @@
 //     "LogedIn":true
 // }
 // console.log(Jsuser["name"])
+
 
 
 

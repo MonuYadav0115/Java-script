@@ -66,15 +66,15 @@
 
 
 // const array1 = [1,2,3,4,5,6,7,8]
-// array1.unshift(9)
+// array1.unshift(9)                   // means add a last index of this element 
 // array1.shift()
 // console.log(array1.includes(8)) 
 // console.log(array1)
 
 // index 
 
-// let array2 =[1,2,3,4,5,6,8,9]
-// console.log(array2.indexOf(3))
+// let array2 =[1,2,3,4,5,6,7,8,9]
+// console.log(array2.indexOf(9))
 
 
 // join metheod
@@ -92,16 +92,16 @@
 // let myn5 = myarray5.slice(2,4)
 
 // console.log(myarray5)
-// console.log(myn5)
+// // console.log(myn5)
 
 // let myarray1 = [0,1,2,3,4,5,6]
-// let myn1 = myarray1.splice(2,4)
+// let myn1 = myarray1.splice(1,4)
 // console.log(myarray1)
 // console.log(myn1)
 
 
 
-// slice  and splice 
+// slice  and splice -----> means copy array 
 
 // let a = [1,2,3,4,5]
 // let b = a.slice(1,3)
@@ -111,11 +111,13 @@
 // splice 
 
 // let a = [1,2,3,4,5,6]
-// let b = a.splice(2,2)
+// let b = a.splice(2,3)
 // console.log("A",a,"B",b)
 
 // 🧠 Easy Memory Trick
 
-// slice = copy
+// slice = copy  ----> but its not icluding last index
 
-// splice = change
+// splice = change ----> this is including last index also 
+
+// these topic you remember its ask intervies question 

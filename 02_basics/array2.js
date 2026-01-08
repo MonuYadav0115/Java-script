@@ -34,10 +34,12 @@
 // let marvel_hero = ["saktiman","Tom cruse","Tom holand"]
 
 // let south_hero = ["Mahesh Babu","Rajanikant","Prabhash","Allu Arjun"]
+// let allhero = [...marvel_hero , south_hero]
+// console.log(allhero)
 
 // marvel_hero.push(south_hero)
 
-// console.log(marvel_hero)
+// console.log(marvel_hero) 
 
 // console.log(marvel_hero[3] [2])
 
@@ -77,9 +79,9 @@
 
 // convert in array form 
  
-//  console.log(Array.isArray("Monu"))  // check array or not 
-//  console.log(Array.from("Monu"))     // convert in array 
-//  console.log(Array.from({name:"Monu"}))  // interesting output [] interviev question 
+ console.log(Array.isArray("Monu"))        // check array or not 
+ console.log(Array.from("Monu"))          // convert in array 
+ console.log(Array.from({name:"Monu"}))  // interesting output [] interviev question 
 
 
 
@@ -90,5 +92,6 @@
 let score1 = 100
 let score2 = 100
 let score3 = 100
-console.log(score1,score2,score3)     // simple output 
-console.log(Array.of(score1,score2,score3)) // in array form output 
+
+// console.log(score1,score2,score3)     // simple output 
+// console.log(Array.of(score1,score2,score3)) // in array form output 

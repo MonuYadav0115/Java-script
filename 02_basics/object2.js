@@ -71,17 +71,17 @@
 
 // 6 
 
-const instauser = {
-    name:"zentrox",
-    age:21,
-    place:"hyderabad",
-    logedIn:false
-}
+// const instauser = {
+//     name:"zentrox",
+//     age:21,
+//     place:"hyderabad",
+//     logedIn:false
+// }
 
-console.log(instauser)
+// console.log(instauser)
 
-console.log(Object.keys(instauser))
-console.log(Object.values(instauser))
-console.log(Object.entries(instauser))
+// console.log(Object.keys(instauser))
+// console.log(Object.values(instauser))
+// console.log(Object.entries(instauser))
 
-console.log(instauser.hasOwnProperty("logedIn"))
+// console.log(instauser.hasOwnProperty("logedIn"))
