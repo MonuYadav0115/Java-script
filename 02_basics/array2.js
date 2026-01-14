@@ -79,9 +79,9 @@
 
 // convert in array form 
  
- console.log(Array.isArray("Monu"))        // check array or not 
- console.log(Array.from("Monu"))          // convert in array 
- console.log(Array.from({name:"Monu"}))  // interesting output [] interviev question 
+//  console.log(Array.isArray("Monu"))        // check array or not 
+//  console.log(Array.from("Monu"))          // convert in array 
+//  console.log(Array.from({name:"Monu"}))  // interesting output [] interviev question 
 
 
 
