@@ -41,17 +41,17 @@
 // 4 new method 
 
 
-// const Jsuser = {
-//     name:"monu",
-//     age:22,
-//     place:"varansi",
-//     email:"monu@gmail.com"
-// }
+const Jsuser = {
+    name:"monu",
+    age:22,
+    place:"varansi",
+    email:"monu@gmail.com"
+}
 
-// Jsuser.greeting = function(){
-//     console.log("Hello js user")
-// } 
-// console.log(Jsuser.greeting())
+Jsuser.greeting = function(){
+    console.log("Hello js user")
+} 
+console.log(Jsuser.greeting())
 
 
 // Jsuser.greeting2 = function(){
